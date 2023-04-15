@@ -1,5 +1,5 @@
-name: scm_theme_manager
-description: A simple theme manager package.
+name: flutter_theme_manager
+description: A simple theme manager package for your flutter application
 version: 0.0.1
 
 environment:

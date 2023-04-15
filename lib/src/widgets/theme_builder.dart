@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:scm_theme_manager/src/services/theme_preference_manager.dart';
+import 'package:flutter_theme_manager/src/services/theme_preference_manager.dart';
 
 class ThemeBuilder extends StatefulWidget {
   // final Widget child;

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:scm_theme_manager/src/services/theme_preference_manager.dart';
+import 'package:flutter_theme_manager/src/services/theme_preference_manager.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 void main() {
