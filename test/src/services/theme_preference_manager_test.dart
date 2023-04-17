@@ -16,7 +16,7 @@ void main() {
     final Map<String, Object> values = <String, Object>{'themeMode': 0};
     SharedPreferences.setMockInitialValues(values);
 
-    final themeMode = await themePreferenceManager.getThemeModePrefernce();
+    final themeMode = await themePreferenceManager.getUserSavedThemeMode();
     expect(themeMode, 0);
   });
 
@@ -24,7 +24,7 @@ void main() {
     final Map<String, Object> values = <String, Object>{'themeMode': 0};
     SharedPreferences.setMockInitialValues(values);
 
-    final theme = await themePreferenceManager.getThemePrefernce();
+    final theme = await themePreferenceManager.getUserThemePreference();
     expect(theme, ThemeData.light());
   });
 
@@ -32,7 +32,7 @@ void main() {
     final Map<String, Object> values = <String, Object>{'themeMode': 1};
     SharedPreferences.setMockInitialValues(values);
 
-    final theme = await themePreferenceManager.getThemePrefernce();
+    final theme = await themePreferenceManager.getUserThemePreference();
     expect(theme, ThemeData.dark());
   });
 
