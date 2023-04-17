@@ -9,8 +9,10 @@ This packages allows you to manage your application theme easily
 ## Getting started
 
 To use this package, you need to first add it to you pubspec.yaml file like so
+```yaml
 dependencies:
-    flutter_theme_manager:
+    flutter_theme_manager: 1.0.0
+```
 
 ## Usage
 
